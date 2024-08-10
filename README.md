@@ -19,17 +19,15 @@ This dataset contains sales transactions from three different branches of Walmar
 | city                    | The location of the branch              | VARCHAR(30)    |
 | customer_type           | The type of the customer                | VARCHAR(30)    |
 | gender                  | Gender of the customer making purchase  | VARCHAR(20)    |
-| product_line            | Product line of the product solf        | VARCHAR(100)   |
+| product_line            | Product line of the product sold        | VARCHAR(100)   |
 | unit_price              | The price of each product               | DECIMAL(10, 2) |
-| quantity                | The amount of the product sold          | INT            |
+| quantity                | The quantity of the product sold        | INT            |
+| sales                   | sales of the products sold              | DECIMAL(10, 2) |
 | tax_pct                 | The amount of tax on the purchase       | FLOAT(10, 4)   |
 | total                   | The total cost of the purchase          | DECIMAL(12, 4) |
 | date                    | The date on which the purchase was made | DATE           |
 | time                    | The time at which the purchase was made | TIMESTAMP      |
 | payment_method          | The mode of payment                     | VARCHAR(15)    |
-| cogs                    | Cost Of Goods sold                      | DECIMAL(10, 2) |
-| gross_margin_pct        | Gross margin percentage                 | FLOAT(11, 9)   |
-| gross_income            | Gross Income                            | DECIMAL(12, 4) |
 | rating                  | Rating                                  | DECIMAL(2, 1)  |
 
 ### Analysis
@@ -40,7 +38,7 @@ This dataset contains sales transactions from three different branches of Walmar
 
 2. Sales Analysis
 
-> This analysis aims to answer the question of the sales trends of product. The result of this can help use measure the effectiveness of each sales strategy the business applies and what modifications are needed to gain more sales.
+> This analysis aims to answer the question of the sales trends of product. The result of this can help us measure the effectiveness of each sales strategy the business applies and what modifications are needed to gain more sales.
 
 3. Customer Analysis
 
@@ -79,10 +77,10 @@ This dataset contains sales transactions from three different branches of Walmar
 2. What is the most common payment method?
 3. What is the most selling product line?
 4. What is the total revenue by month?
-5. What month had the largest COGS?
+5. What month had the largest sales?
 6. What product line had the largest revenue?
 7. What is the city with the largest revenue?
-8. What product line had the largest VAT?
+8. What product line had the largest tax?
 9. Fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
 10. Which branch sold more products than average product sold?
 11. What is the most common product line by gender?
@@ -92,8 +90,8 @@ This dataset contains sales transactions from three different branches of Walmar
 
 1. Number of sales made in each time of the day per weekday
 2. Which of the customer types brings the most revenue?
-3. Which city has the largest tax percent/ VAT (**Value Added Tax**)?
-4. Which customer type pays the most in VAT?
+3. Which city has the largest tax?
+4. Which customer type pays the most tax?
 
 ### Customer
 
