@@ -237,7 +237,7 @@ FROM sales;
 
 -- How many unique payment methods does the data have?
 SELECT
-	COUNT(DISTINCT payment)
+	COUNT(DISTINCT payment_method)
 FROM sales;
 
 -- What is the most common customer type?
