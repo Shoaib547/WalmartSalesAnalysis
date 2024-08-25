@@ -60,7 +60,7 @@ This dataset contains sales transactions from three different branches of Walmar
 
 > 3. Add a new column named `month_name` that contains the extracted months of the year on which the given transaction took place (Jan, Feb, Mar). Help determine which month of the year has the most sales and profit.
 
-2. **Exploratory Data Analysis (EDA):** Exploratory data analysis is done to answer the listed questions.
+3. **Exploratory Data Analysis (EDA):** Exploratory data analysis is done to answer the listed questions.
 
 ## Business Questions To Answer
 
