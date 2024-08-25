@@ -2,7 +2,7 @@
 
 ## About
 
-The objective of this project is to explore the Walmart Sales data to understand top performing branches and products, sales trend of different products and customer behaviour. The aim is to study how sales strategies can be improved and optimized.
+The objective of this project is to explore the Walmart Sales data to understand top performing branches and products, sales trend of different products and customer behaviour.
 
 ## Purpose Of The Project
 
@@ -60,9 +60,7 @@ This dataset contains sales transactions from three different branches of Walmar
 
 > 3. Add a new column named `month_name` that contains the extracted months of the year on which the given transaction took place (Jan, Feb, Mar). Help determine which month of the year has the most sales and profit.
 
-2. **Exploratory Data Analysis (EDA):** Exploratory data analysis is done to answer the listed questions and aims of this project.
-
-3. **Conclusion:**
+2. **Exploratory Data Analysis (EDA):** Exploratory data analysis is done to answer the listed questions.
 
 ## Business Questions To Answer
 
